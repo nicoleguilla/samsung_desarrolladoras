@@ -1,13 +1,3 @@
-function nonEmptyField() {
-	if (name_field.value == 0) {
-		error_name.innerHTML = "Rellene este campo";
-		name_field.classList.add("invalid");
-		name_field.classList.add("error_icon");
-		return false;
-	}
-	
-}
-
 function validateName(){
 	var name_field = document.getElementById('name');
 	var valid_name = /^[A-Za-z\s]+$/;

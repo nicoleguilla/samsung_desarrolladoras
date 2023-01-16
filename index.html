@@ -10,25 +10,25 @@
     <title>Laboratorio</title>
 </head>
 <body>
-    <div class="formContainer">
+    <div class="form_container">
     <form name="createaccount">
         <h1> Create Account </h1>
-        <div class="fieldContainer">
+        <div class="field_container">
             <p>Nombre</p>
             <input type="text" name="name" value="" id="name" class="form_element" onblur="validateName()">
             <span id="name_error"></span>
         </div>
-        <div class="fieldContainer">
+        <div class="field_container">
             <p>Email</p>
             <input type="email" name="email" value="" id="email" class="form_element" onblur="validateEmail()">
             <span id="email_error"></span>
         </div>
-        <div class="fieldContainer">
+        <div class="field_container">
             <p>Clave</p> 
             <input type="password" name="password" value="" id="password" class="form_element" onblur="validatePassword(), validateConfirm()">
             <span id="password_error"></span>
         </div>
-        <div class="fieldContainer">
+        <div class="field_container">
             <p>Confirme su clave</p> 
             <input type="password" name="confirm" value="" id="confirm" class="form_element" onblur="validatePassword(), validateConfirm()">
             <span id="confirm_error"></span>
